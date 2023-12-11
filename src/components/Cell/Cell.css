@@ -1,0 +1,40 @@
+.cell {
+  border: 1px solid var(--dark-bg);
+  height: var(--cell-size);
+  width: var(--cell-size);
+}
+
+.I-square {
+  background: url('../../assets/images/I-square.png');
+  background-size: cover;
+}
+
+.J-square {
+  background: url('../../assets/images/J-square.png');
+  background-size: cover;
+}
+
+.L-square {
+  background: url('../../assets/images/L-square.png');
+  background-size: cover;
+}
+
+.O-square {
+  background: url('../../assets/images/O-square.png');
+  background-size: cover;
+}
+
+.S-square {
+  background: url('../../assets/images/S-square.png');
+  background-size: cover;
+}
+
+.T-square {
+  background: url('../../assets/images/T-square.png');
+  background-size: cover;
+}
+
+.Z-square {
+  background: url('../../assets/images/Z-square.png');
+  background-size: cover;
+}

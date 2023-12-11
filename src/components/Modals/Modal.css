@@ -1,0 +1,61 @@
+#myModal {
+  background: linear-gradient(dimgray, lightgray);
+  border: 1px solid var(--dark-bg);
+  border-radius: 10px;
+  color: black;
+  display: flex;
+  height: 50%;
+  left: 50%;
+  overflow: auto;
+  padding: 1rem;
+  position: fixed;
+  top: 50%;
+  -webkit-transform: translate(-50%, -50%);
+  transform: translate(-50%, -50%);
+  width: 50%;
+  z-index: 1;
+}
+
+#modal-content {
+  align-items: center;
+	display: flex;
+	flex-direction: column;
+  height: 80%;
+	justify-content: space-around;
+  margin: auto;
+	text-align: center;
+}
+
+#modal-close {
+  background-color: transparent;
+  border: none;
+  color: black;
+	font-size: 28px;
+	font-weight: bold;
+	position: absolute;
+	top: 0;
+	right: 5px;
+}
+
+#modal-close:hover,
+#modal-close:focus {
+	color: whitesmoke;
+	text-decoration: none;
+	cursor: pointer;
+}
+
+#modal-submit {
+	background-color: dimgray;
+	border-radius: 10px;
+	color: black;
+	cursor: pointer;
+	font-weight: bold;
+	padding: 5px 10px;
+	width: fit-content;
+}
+
+#modal-submit:hover {
+  background-color: black;
+  color: whitesmoke;
+}
+/* End Modal */

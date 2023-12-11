@@ -1,0 +1,11 @@
+#next-container {
+  grid-column: 3;
+  grid-row: 2;
+  height: 50%;
+  margin: 15vh auto;
+  width: 90%;
+}
+
+#next {
+  height: 95%;
+}

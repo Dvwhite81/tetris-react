@@ -19,6 +19,7 @@
     "import/no-cycle": "off",
     "import/no-extraneous-dependencies": "off",
     "react/prop-types": "off",
+    "react/no-array-index-key": "off",
     "react/no-unknown-property": "off",
     "react/no-unescaped-entities": "off",
     "no-return-assign":"off",

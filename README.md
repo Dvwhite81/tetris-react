@@ -1,1 +1,1 @@
-# battleship-react
+# tetris-react

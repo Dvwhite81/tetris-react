@@ -1,0 +1,21 @@
+#header {
+  display: flex;
+  grid-column: 2;
+  grid-row: 1;
+}
+
+#header-h1 {
+  background-image: linear-gradient(135deg, var(--light-bg) 0%, whitesmoke 50%);
+  background-clip: border-box;
+  font-size: xxx-large;
+  margin: auto;
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+
+  text-shadow:
+    -1px -1px 0 rgba(255, 255, 255, 0.5),
+    1px 1px 0 rgba(0, 0, 0, 0.25),
+    3px 3px 3px rgba(0, 0, 0, 0.25),
+    10px 10px 20px rgba(0, 0, 0, 0.5),
+    20px 40px 40px rgba(0, 0, 0, 0.5);
+}

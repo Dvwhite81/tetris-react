@@ -1,0 +1,7 @@
+#score-container {
+  grid-column: 1;
+  grid-row: 2;
+  height: 50%;
+  margin: 15vh auto;
+  width: 90%;
+}
